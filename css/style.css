@@ -47,6 +47,7 @@ header{
     left: 0px;
     right: 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    z-index: 2;
 }
 
 header img{
@@ -55,15 +56,29 @@ header img{
 
 
 /* SEZIONE MAIN */
+main{
+    padding-top: 60px;
+}
+
 .pic-row{
-    margin: 90px 0 40px;
+    margin: 40px 0 40px;
 }
 
 /* PRIMA RIGA */
-main div{
+.card{
     width: 32%;
+    position: relative;
 }
 
 main img{
     width: 100%;
+}
+
+.card > div{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 2em;
 }
