@@ -23,6 +23,10 @@ a{
     color: white;
 }
 
+li:nth-child(2){
+    padding: 0 5px 0;
+}
+
 i{
     color: white;
 }
@@ -39,9 +43,27 @@ header{
     background-color: #ff6900;
     width: 100%;
     position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 header img{
     height: 2em;
+}
+
+
+/* SEZIONE MAIN */
+.pic-row{
+    margin: 90px 0 40px;
+}
+
+/* PRIMA RIGA */
+main div{
+    width: 32%;
+}
+
+main img{
+    width: 100%;
 }
