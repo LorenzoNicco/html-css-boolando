@@ -78,6 +78,14 @@ main img{
     width: 100%;
 }
 
+.img-none:hover{
+    display: none;
+}
+
+.img-none{
+    position: absolute;
+}
+
 .heart{
     position: absolute;
     top: 10px;
