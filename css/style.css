@@ -123,3 +123,27 @@ p > span{
     text-decoration: line-through;
     font-weight: 400;
 }
+
+
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+}
+
+footer > div{
+    padding: 20px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-links a{
+    font-size: 0.7em;
+}
+
+.social > p{
+    font-size: 0.7em;
+}
+
+.social > i{
+    margin-right: 5px;
+}
