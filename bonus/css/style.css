@@ -1,0 +1,157 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* REGOLE GENERALI */
+main{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+li:nth-child(2){
+    padding: 0 5px 0;
+}
+
+i{
+    color: white;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* SEZIONE HEADER */
+header{
+    background-color: #ff6900;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    z-index: 2;
+}
+
+header img{
+    height: 2em;
+}
+
+
+/* SEZIONE MAIN */
+main{
+    padding-top: 60px;
+}
+
+.pic-row{
+    margin: 40px 0 40px;
+}
+
+.card{
+    width: 32%;
+    position: relative;
+}
+
+main img{
+    width: 100%;
+}
+
+.img-none:hover{
+    display: none;
+}
+
+.img-none{
+    position: absolute;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 2em;
+}
+
+.prices{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+
+}
+
+.price-tag{
+    padding: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.price-tag.red{
+    background-color: red;
+}
+
+.price-tag.green{
+    background-color: green;
+}
+
+.details > p{
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+
+.details > p:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+p > span{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+}
+
+footer > div{
+    padding: 20px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-links a{
+    font-size: 0.7em;
+}
+
+.social > p{
+    font-size: 0.7em;
+}
+
+.social > i{
+    margin-right: 5px;
+}
