@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* REGOLE GENERALI */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* SEZIONE HEADER */
+header{
+    background-color: #ff6900;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+header img{
+    height: 2em;
+}
