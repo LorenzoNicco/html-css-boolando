@@ -78,12 +78,16 @@ main img{
     width: 100%;
 }
 
-.img-none:hover{
+.card:hover .img-none{
     display: none;
 }
 
 .img-none{
     position: absolute;
+}
+
+.card:hover .heart{
+    color: red;
 }
 
 .heart{
