@@ -69,7 +69,6 @@ main{
     margin: 40px 0 40px;
 }
 
-/* PRIMA RIGA */
 .card{
     width: 32%;
     position: relative;
@@ -91,7 +90,7 @@ main img{
 .prices{
     position: absolute;
     left: 0;
-    bottom: 40px;
+    bottom: 100px;
 
 }
 
@@ -107,4 +106,20 @@ main img{
 
 .price-tag.green{
     background-color: green;
+}
+
+.details > p{
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+
+.details > p:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+p > span{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
 }
